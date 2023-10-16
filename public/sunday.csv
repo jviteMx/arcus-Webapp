@@ -1,0 +1,79 @@
+﻿NYISO, Date , Low , Average , High , AvgChg 
+NYISO REF Real-time LBMP - flat,8-Oct,3.05,11.19,24.46,-12.6
+West LBMP - Zone A [Off Peak],8-Oct,3.25,10.3,19.53,-12.25
+HUDSON V LBMP - Zone G [Off Peak],8-Oct,3.75,12.17,25.99,-12.27
+N.Y.C. LBMP - Zone J [Off Peak],8-Oct,5.3,12.87,26.28,-13.35
+West Day Ahead LBMP - Zone A [Peak HE8-HE23],9-Oct,15.66,20.11,34.99,4.5
+West Day Ahead LBMP - Zone A [Off Peak],9-Oct,10.03,12.98,17.79,-1.92
+HUDSON V Day Ahead LBMP - Zone G [Peak HE8-HE23],9-Oct,19.12,25.38,39.75,2.74
+HUDSON V Day Ahead LBMP - Zone G [Off Peak],9-Oct,13.42,16.22,23.83,-0.05
+N.Y.C. Day Ahead LBMP - Zone J [Peak HE8-HE23],9-Oct,21.21,27.25,40.8,3.43
+N.Y.C. Day Ahead LBMP - Zone J [Off Peak],9-Oct,13.74,16.64,25.05,0.16
+PJM, Date , Low , Average , High , AvgChg 
+AEP DAYTON HUB LMP [Off Peak],8-Oct,14.32,23.22,52.09,-1.91
+AEP GEN HUB LMP [Off Peak],8-Oct,14.15,22.94,51.47,-2.02
+ATSI GEN HUB LMP [Off Peak],8-Oct,13.85,21.88,47.18,-2.67
+CHICAGO HUB LMP [Off Peak],8-Oct,13.81,22.43,49.22,-1.84
+DOMINION HUB LMP [Off Peak],8-Oct,-2.54,23.76,62.08,-4.19
+EASTERN HUB LMP [Off Peak],8-Oct,4.2,12.64,25.84,-3.4
+N ILLINOIS HUB LMP [Off Peak],8-Oct,13.74,22.33,49.04,-1.81
+NEW JERSEY HUB LMP [Off Peak],8-Oct,7.18,14.04,25.55,-3.31
+OHIO HUB LMP [Off Peak],8-Oct,14.31,23.16,51.89,-1.83
+WEST INT HUB LMP [Off Peak],8-Oct,12.85,23.23,53.74,-3.14
+WESTERN HUB LMP [Off Peak],8-Oct,14.24,23.77,53.35,-2.34
+PJM - WEST HUB Day Ahead LMP [Peak HE8-HE23],9-Oct,31,43.78,75.31,11.6
+PJM - WEST HUB Day Ahead LMP [Off Peak],9-Oct,21.85,28.37,51.74,5.54
+ISO NE, Date , Low , Average , High , AvgChg 
+ISO NE 5 Minute LMP - flat,8-Oct,-66.66,5.93,29.64,-16.23
+Internal Hub Hourly LMP - Hub [Off Peak],8-Oct,-24.33,5.73,20.78,-16.43
+Mass. Boston Hourly LMP [Off Peak],8-Oct,-24.54,5.76,20.94,-16.5
+SE Mass. Hourly LMP [Off Peak],8-Oct,-24.44,5.75,20.85,-16.46
+WC Mass. Hourly LMP [Off Peak],8-Oct,-24.4,5.73,20.8,-16.5
+Internal Hub Day Ahead LMP [Peak HE8-HE23],9-Oct,15.12,24.19,47.67,6.88
+Internal Hub Day Ahead LMP [Off Peak],9-Oct,10.28,12.53,15.81,-0.56
+Mass. Boston Day Ahead LMP [Peak HE8-HE23],9-Oct,15.29,24.36,47.88,6.91
+Mass. Boston Day Ahead LMP [Off Peak],9-Oct,10.33,12.58,15.89,-0.54
+SE Mass. Day Ahead LMP [Peak HE8-HE23],9-Oct,15.16,24.26,47.87,6.83
+SE Mass. Day Ahead LMP [Off Peak],9-Oct,10.31,12.56,15.8,-0.64
+WC Mass. Day Ahead LMP [Peak HE8-HE23],9-Oct,15.23,24.26,47.59,6.91
+WC Mass. Day Ahead LMP [Off Peak],9-Oct,10.32,12.6,15.88,-0.52
+MISO, Date , Low , Average , High , AvgChg 
+Illinois Hub Hourly LMP [Off Peak],8-Oct,17.84,23.49,41.51,-16.37
+Michigan Hub Hourly LMP [Off Peak],8-Oct,17.05,22.51,32.08,-18.2
+Minnesota Hub Hourly LMP [Off Peak],8-Oct,17.9,23.47,38.59,-24.96
+ONT Interface Hourly LMP [Off Peak],8-Oct,18.15,23.44,32.24,-18.98
+PJMC Interface Hourly LMP [Off Peak],8-Oct,17.62,23.11,39.36,-16.3
+ERCOT, Date , Low , Average , High , AvgChg 
+HB_HOUSTON Settle Price,8-Oct,0.01,19.15,155.6,-5.94
+HB_NORTH Settle Price,8-Oct,0.01,18.47,155.6,-4.46
+HB_SOUTH Settle Price,8-Oct,0.01,19.82,155.6,-6.53
+HB_WEST Settle Price,8-Oct,0.01,23.07,155.6,-10.95
+SPP, Date , Low , Average , High , AvgChg 
+SPP SOUTH HUB RTBM LMP [Off Peak],8-Oct,-23.77,16.53,83.67,-6.76
+SPP NORTH HUB RTBM LMP [Off Peak],8-Oct,-28.82,10.96,87.04,-15.27
+SPP SOUTH HUB Day Ahead LMP [Peak HE7-HE22],9-Oct,24.77,41.77,54.68,9.81
+SPP SOUTH HUB Day Ahead LMP [Off Peak],9-Oct,18.39,21.68,25.06,14.57
+SPP NORTH HUB Day Ahead LMP [Peak HE7-HE22],9-Oct,24.88,44.17,62.23,21.53
+SPP NORTH HUB Day Ahead LMP [Off Peak],9-Oct,17.02,20.52,26.04,21.54
+CAISO, Date , Low , Average , High , AvgChg 
+RTM Energy Component [Off Peak],8-Oct,20.31,49.63,102.53,-6.32
+NP15_GEN-APND RTM [Off Peak],8-Oct,20.95,48.33,87.64,-8.49
+SP15_GEN-APND RTM [Off Peak],8-Oct,13.41,46.84,98.69,-4.04
+ZP26_GEN-APND RTM [Off Peak],8-Oct,19.87,47.06,89.31,-3.26
+DAM Energy Component [Peak HE7-HE22],9-Oct,36.93,58.04,92.85,-5.63
+DAM Energy Component [Off Peak],9-Oct,53.18,57.94,62.57,-3.82
+NP15_GEN-APND DAM [Peak HE7-HE22],9-Oct,46.48,59.1,85.22,-5.84
+NP15_GEN-APND DAM [Off Peak],9-Oct,51.75,56.15,60.26,-3.47
+SP15_GEN-APND DAM [Peak HE7-HE22],9-Oct,21.1,50.38,91.81,-6.01
+SP15_GEN-APND DAM [Off Peak],9-Oct,51.8,56.29,60.33,-3.8
+ZP26_GEN-APND DAM [Peak HE7-HE22],9-Oct,27.93,53.44,86.64,-2.82
+ZP26_GEN-APND DAM [Off Peak],9-Oct,51,55.47,59.63,-3.76
+IESO ($CAD) EPT, Date , Low , Average , High , AvgChg 
+HOEP Price [Off Peak],8-Oct,0,4.14,16.23,-21.3
+Day Ahead PreDispatch,9-Oct,0,17.1,40.8,-6.25
+NYSI - UnCnstr ENGY,8-Oct,0,4.14,36.69,-21.3
+MISI- UnCnstr ENGY,8-Oct,0,17.5,51.85,-8.67
+MNSI - UnCnstr ENGY,8-Oct,0,30.73,112.5,-11.6
+AESO Alberta ($CAD), Date , Low , Average , High , AvgChg 
+Hourly Actual,8-Oct,24.34,37.87,55.59,-77.86
+Hourly Actual [Off Peak],8-Oct,24.34,37.87,55.59,-77.86

@@ -1,0 +1,13 @@
+,Prediction- Day1
+Real Value,19.44
+Predicted,17.67
+Variance,2.48
+Error%,14.03508772
+,
+,
+,Prediction- Day2
+Real Value,-12.25
+Predicted,-14.88
+Variance,3.1
+Error%,25.30612245
+Drift,35%
