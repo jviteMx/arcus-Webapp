@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PredictionComponent() {
+function PredictionPage() {
     const imageUrl = 'https://javiervite.com/forecastDump/NYISO_RealTime.png'
     const imageUrl2 = 'https://javiervite.com/forecastDump/NYISO_RealTime_7day.png'
 
@@ -37,4 +37,4 @@ function PredictionComponent() {
     );
 }
 
-export default PredictionComponent;
+export default PredictionPage;
