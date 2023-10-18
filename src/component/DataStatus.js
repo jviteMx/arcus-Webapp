@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class DataStatus extends Component {
     constructor(props) {
@@ -25,12 +25,18 @@ class DataStatus extends Component {
     };
 
     render() {
-        const { isBlinking } = this.state;
+        const {isBlinking} = this.state;
 
         return (
             <div className={`stream-status ${isBlinking ? 'blinking' : ''}`}>
-                <div className="led"></div>
-                <span>Stream Status</span>
+                <div>
+                    <span>Stream Status</span>
+                    <div className="led"></div>
+                </div>
+                <div>
+                    <span>Stream Quality</span>
+                    <div className="led"></div>
+                </div>
             </div>
         );
     }

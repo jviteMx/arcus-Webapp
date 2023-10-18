@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import { Line } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import Papa from 'papaparse';
 
 class NetworkStatus extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: [],
-            chartData: {
+            data: {
                 labels: [],
                 datasets: [
                     {
-                        label: 'Data Stream',
-                        fill: false,
-                        borderColor: 'blue',
+                        label: 'Horizontal Bar Chart',
                         data: [],
+                        backgroundColor: 'rgba(75, 192, 192, 0.6)',
                     },
                 ],
             },
@@ -22,52 +20,50 @@ class NetworkStatus extends Component {
     }
 
     componentDidMount() {
-        this.loadData();
-        this.streamData();
+        this.loadDataFromCSV('data.csv');
     }
 
-    componentWillUnmount() {
-        // Clear any intervals or ongoing processes
-        clearInterval(this.streamInterval);
-    }
-
-    loadData = () => {
-        Papa.parse('your-csv-file.csv', {
+    // Function to load data from CSV file
+    loadDataFromCSV = (csvFile) => {
+        Papa.parse(csvFile, {
+            download: true,
             header: true,
             dynamicTyping: true,
+            skipEmptyLines: true,
             complete: (result) => {
-                const { data } = result;
-                this.setState({ data });
+                const labels = result.data.map((row) => row.Category);
+                const values = result.data.map((row) => row.Value);
+                this.updateChart(labels, values);
             },
         });
     };
 
-    streamData = () => {
-        const { data } = this.state;
-        let dataIndex = 0;
-
-        this.streamInterval = setInterval(() => {
-            const newDataPoint = data[dataIndex].columnName; // Replace 'columnName' with the actual column name
-            const newChartData = { ...this.state.chartData };
-
-            newChartData.labels.push(new Date().toLocaleTimeString());
-            newChartData.datasets[0].data.push(newDataPoint);
-
-            if (newChartData.labels.length > 10) {
-                newChartData.labels.shift();
-                newChartData.datasets[0].data.shift();
-            }
-
-            this.setState({ chartData: newChartData });
-            dataIndex = (dataIndex + 1) % data.length;
-        }, 1000); // Simulate streaming data every 1 second
+    // Function to update the chart
+    updateChart = (labels, values) => {
+        const updatedData = { ...this.state.data };
+        updatedData.labels = labels;
+        updatedData.datasets[0].data = values;
+        this.setState({ data: updatedData });
     };
 
     render() {
-        const { chartData } = this.state;
         return (
-            <div className="data-stream-chart">
-                <Line data={chartData} options={{ responsive: true }} />
+            <div>
+                <h1>Horizontal Bar Chart</h1>
+                <Bar
+                    data={this.state.data}
+                    options={{
+                        scales: {
+                            xAxes: [
+                                {
+                                    ticks: {
+                                        beginAtZero: true,
+                                    },
+                                },
+                            ],
+                        },
+                    }}
+                />
             </div>
         );
     }
