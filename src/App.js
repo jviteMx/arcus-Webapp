@@ -41,17 +41,17 @@ function App() {
                 </div>
                 <div>
                     <button className="prediction" onClick={handlePredictionClick}>7 Day Forecast</button>
-                    <button className="prediction" onClick={handleIotClick}>IOT Edge</button>
+                    {/*<button className="prediction" onClick={handleIotClick}>IOT Edge</button>*/}
                 </div>
             </div>
 
             {showPrediction ? (
-                <PredictionPage selectedDay={selectedDay}/>
-            ) : showIOT ? (
-                <IotPage/>
-            ) : (
-                <CSVDisplay selectedDay={selectedDay}/>
-            )}
+                    <PredictionPage selectedDay={selectedDay}/>
+                ) //: showIOT ? (
+                //     <IotPage/>)
+                : (
+                    <CSVDisplay selectedDay={selectedDay}/>
+                )}
         </div>
     );
 }
